@@ -1,0 +1,16 @@
+Projeto 01 
+
+tópicos principais :
+
+1- nome dos professores ou monitor de reserva a sala,
+2- periodo em que a sala será reservada (manhã , tarde , noite )
+3- horarios em que o professor e a turma firaram na sala,
+4-qual o andar que o labioratiorio está 
+5-mostrar salas disponiveis e indisponiveis com os nomes das pessoas que reservaram e ate que data ou horario fica reservada 
+6- quantidade de pessoas que cabem na sala , laboratotio  , e na hora da reserva , espaço para quantas pessoas 
+ irão para a sala 
+7-regras a seguir para reservar ( não retirar as chgaves se não tiver a reserva , somente quem reservou pode pegar as chaves , ale disso 
+ao reservar as regras de conduta devem estar na descrição da sala)
+8- aba que mostra todas as salas disponiveis em cores verdes , as salas reservadas em cores vermelhas  e as salas que estão reservadas para outros dias amarelo 
+9-precisa ter pós reserva para relatar tudo que acontece na sala se nescesssitar de limpeza  etc, deve conter um relatorio para estojo , verificar  se tudo está  do jeito  que o reservista pegou;
+letras grandes  modo claro , escuro , customização de cores 
