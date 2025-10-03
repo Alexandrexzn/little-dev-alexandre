@@ -1,0 +1,126 @@
+/* Reset básico para consistência */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Corpo da página */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    padding: 20px;
+}
+
+/* Título principal */
+h1 {
+    color: #2c3e50;
+    margin-bottom: 20px;
+}
+
+/* Subtítulo */
+h2 {
+    margin-top: 30px;
+    margin-bottom: 15px;
+    color: #34495e;
+}
+
+/* Formulário de upload */
+form {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+/* Input de arquivo */
+input[type="file"] {
+    padding: 5px;
+    border: 1px solid #ccc;
+    background: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Botão */
+button {
+    padding: 10px 16px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+/* Mensagens de resultado */
+#resultado, #loading {
+    margin-top: 15px;
+    padding: 12px;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+.success {
+    color: #2ecc71;
+}
+
+.error {
+    color: #e74c3c;
+}
+
+/* Tabela */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background: #fff;
+    border-radius: 6px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* Cabeçalho da tabela */
+th {
+    background-color: #3498db;
+    color: white;
+    padding: 12px;
+    text-align: left;
+}
+
+/* Células */
+td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Alternar cor de linhas */
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Última coluna (ações) */
+td:last-child {
+    text-align: center;
+}
+
+/* Links ou botões de ação */
+td a, td button {
+    padding: 6px 10px;
+    background-color: #e67e22;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: 0.3s;
+    border: none;
+}
+
+td a:hover, td button:hover {
+    background-color: #d35400;
+}
